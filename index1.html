@@ -9,8 +9,25 @@
     <meta name="keyword" content="HTML,CSS">
     <meta name="desciption" content="UniSA is South Australia's no 1. university for graduate careers. Study, explore our research or partner with us.
 ">
-    <style> 
-    em {font-size: 5rem; font-style: normal}
+    <style>
+        em {
+            font-size: 5rem;
+            font-style: normal
+        }
+
+        .html-em {
+            font-size: 3rem;
+            color: chocolate;
+        }
+
+        p.active {
+            font-size: 10rem
+        }
+
+        #thisisap {
+            font-size: 5.1rem;
+            font-style: italic
+        }
     </style>
 </head>
 
@@ -19,7 +36,10 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quod fugit nesciunt pariatur provident
         recusandae laborum quos architecto enim nihil id iusto illo cum dolorum sapiente mollitia, optio porro? Quasi.
     </p>
-    <p>Lorem, ipsum dolor <em>sit amet consectetur adipisicing elit.</em> Dolore, vitae?</p>
+    <p>Lorem, ipsum dolor <em class="html-em">sit amet consectetur adipisicing elit.</em> <em class="css-em">css</em>
+        Dolore, vitae?</p>
+    <p class="css-em active">huahua</p>
+    <p id="thisisap">hahahaha</p>
 
 </body>
 
