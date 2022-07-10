@@ -3,5 +3,26 @@
             font-size: 10rem;
             cursor: pointer;
         } */
-
-        table{border: 2px dashed gray;} 
+        /* table,td{border: 2px dashed rgb(128, 128, 128);border-collapse: collapse;}  */
+        table,
+        th,
+        td{border: 2px solid rgb(128, 128, 128);border-collapse: collapse;text-align: center;} 
+        /* td{border: 2px solid rgb(128, 128, 128);border-collapse: collapse;text-align: center;
+            font-style: italic; font-weight: bold; }  */
+        /* td{border: 6px dashed rgb(128, 128, 128);} */
+        #mytable{color:rgb(55, 226, 43);}
+        .mytable_class{background-color: rgb(255, 204, 0);}
+        /* ul.info li {list-style: none;} */
+        /* ul.info>li {list-style: none;} */
+        /* ul.info {list-style: none;}  */
+        ul.info>li li:nth-child(1) {list-style: none;}
+        ol li a{text-decoration: none;}
+        ol li a[target="_blank"]{text-decoration: none;}
+        ol li a[href="https://www.youtube.com/"]{color:rgb(255, 128, 0)}
+        
+        ol li a[href*="github"]{color:rgb(28, 27, 18)}
+                
+        /* ol li a[href^="http"]{color:rgb(43, 226, 141)} */
+        /* ol li a[href$="au/"]{background:rgb(55, 226, 43)} */
+        ol li a[href$="au/"] {background:rgb(55, 226, 43)}
+        ol li a[href$="au/"][href*="github"]{background:rgb(226, 168, 43)}
