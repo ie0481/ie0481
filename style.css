@@ -25,4 +25,4 @@
         /* ol li a[href^="http"]{color:rgb(43, 226, 141)} */
         /* ol li a[href$="au/"]{background:rgb(55, 226, 43)} */
         ol li a[href$="au/"] {background:rgb(55, 226, 43)}
-        ol li a[href$="au/"][href*="github"]{background:rgb(226, 168, 43)}
+        ol li a[href$="au/"][href*="google"]{background:rgb(226, 168, 43)}
