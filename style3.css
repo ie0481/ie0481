@@ -1,0 +1,12 @@
+ul.info{}
+
+div.info{}
+
+
+ul.info>li{color:blue;
+          list-style: none;}
+
+
+
+ul.info>li li:nth-child(1){
+    list-style: none;}
