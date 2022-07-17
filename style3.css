@@ -1,12 +1,5 @@
-ul.info{}
+ul.info{font-weight: bold;}
 
-div.info{}
+ul.info>li{list-style: none;}
 
-
-ul.info>li{color:blue;
-          list-style: none;}
-
-
-
-ul.info>li li:nth-child(1){
-    list-style: none;}
+body{background-color: black;}
